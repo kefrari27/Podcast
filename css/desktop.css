@@ -1,0 +1,167 @@
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_logo img {
+  width: 36px;
+  height: 36px;
+  margin: 22px 0 22px 100px;
+}
+
+.container_menu {
+  display: inline-block;
+  align-items: flex-end;
+  background-color: var(--white);
+}
+
+.container_menu input {
+  display: none;
+}
+
+.container_menu i {
+  display: none;
+}
+
+.container_menu nav {
+  display: flex;
+}
+
+.container_menu li {
+  display: inline-block;
+}
+
+.container_menu a {
+  color: var(--black);
+  margin-right: 48px;
+}
+
+/* Main */
+
+.main-principal h1 {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.main-principal p {
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.main-principal button {
+  margin-left: 200px;
+}
+
+.main-episodios {
+  background-image: linear-gradient(176deg, var(--white) 10%, var(--light-blue) 0%, var(--dark-blue) 100%);
+}
+
+.main-episodios h2 {
+  margin-left: 144px;
+}
+
+.main-episodios .container-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main--first-informacion {
+  display: flex;
+}
+
+.main--first-informacion .first-text-informacion {
+  display: inline-block;
+  margin: 300px auto 0;
+  width: 50%;
+}
+
+.main-informacion h2 {
+  margin-left: 192px;
+  padding-left: 0;
+}
+
+.container-img-informacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-img-informacion img {
+  margin: 0%;
+}
+
+.container-img-temas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-img-temas--item {
+  display: inline-block;
+}
+
+.container-img-temas--item img {
+  margin-bottom: 24px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0 100px;
+}
+
+.footer-container-icon {
+  margin: 0 100px;
+}
+
+.footer-container-icon i {
+  font-size: 2.8rem;
+  margin: 0 16px;
+}
+
+/* Actions */
+
+.container_logo img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.container_menu a:hover {
+  text-decoration: line-through;
+  color: var(--green-action);
+}
+
+.container_menu a:active {
+  text-decoration: line-through;
+  color: var(--dark-blue);
+}
+
+.main-principal button:hover {
+  background-image: linear-gradient(255deg, var(--light-blue) 0%, var(--green-action) 100%);
+}
+
+.main-principal button a:hover {
+  color: var(--white);
+}
+
+.main-final button:hover {
+  background-image: linear-gradient(255deg, var(--light-blue) 0%, var(--green-action) 100%);
+}
+
+.main-final button a:hover {
+  color: var(--white);
+}
+
+.footer-container-icon i:hover {
+  font-size: 3rem;
+  color: var(--light-blue);
+}
