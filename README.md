@@ -15,7 +15,11 @@ Contenido
 
 La página web del PODCAST posee un diseño bastante novedoso y atractivo. Para el desarrollo de este proyecto se trabajó con la tendencia "First Mobile", pero se aplicaron Media Queries para que sea igualmente apreciable en tablet y desktop. Dentro del proyecto se destaca la realización de un menú tipo hamburguesa solo aplicando HTML y CSS, además de la distribución de backgrounds a lo largo de la página utilizando a propiedad linear-gradient.
 
-Actualizaciones
+Visita el proyecto
 -------------
 
-Actualmente estoy trabajando en un nuevo diseño de este proyecto.
+En el siguiente enlace de "github-page" podrás conocer el proyecto:
+
+https://kefrari27.github.io/Podcast/
+
+Explora, comenta, disfruta!
